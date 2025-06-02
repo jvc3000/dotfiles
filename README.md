@@ -2,6 +2,8 @@
 
 Personal configuration files for setting up development environments quickly and consistently across systems.
 
+---
+
 ## What's Included
 
 ### Bash Aliases (`.bash_aliases`)
@@ -36,11 +38,15 @@ update
 - Aliases take effect in new shell sessions or after running `source ~/.bashrc`
 - To temporarily bypass an alias, prefix the command with `\` (e.g., `\ls`)
 
+---
+
 ## Supported Systems
 
 - Ubuntu 20.04+
 - Debian 10+
 - Other Linux distributions with bash
+
+---
 
 ## Adding New Configurations
 
@@ -49,6 +55,8 @@ This repository will be expanded to include:
 - `.vimrc` - Vim editor configuration  
 - `.bashrc` - Custom bash configuration
 - Install scripts for automated setup
+
+---
 
 ## License
 
