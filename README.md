@@ -9,7 +9,9 @@ Personal configuration files for setting up development environments quickly and
 ```bash
 # Download and install aliases
 curl -o ~/.bash_aliases https://raw.githubusercontent.com/jvc3000/dotfiles/main/.bash_aliases
+```
 
+```bash
 # Reload your shell configuration
 source ~/.bashrc
 ```
@@ -18,7 +20,7 @@ source ~/.bashrc
 
 ```bash
 # Test an alias
-ll
+update
 ```
 
 ## What's Included
@@ -28,21 +30,6 @@ ll
 - **Safety aliases**: Confirmation prompts for destructive operations
 - **Color output**: Enhanced readability for common commands
 - **Utility shortcuts**: Quick access to frequently used commands
-
-## Manual Installation
-
-If you prefer to clone the repository:
-
-```bash
-# Clone the repository
-git clone https://github.com/jvc3000/dotfiles.git
-
-# Copy configuration files
-cp dotfiles/.bash_aliases ~/
-
-# Reload configuration
-source ~/.bashrc
-```
 
 ## Supported Systems
 
@@ -63,10 +50,6 @@ This repository will be expanded to include:
 - `.vimrc` - Vim editor configuration  
 - `.bashrc` - Custom bash configuration
 - Install scripts for automated setup
-
-## Contributing
-
-Feel free to suggest improvements or additional configurations that would be useful for development environments.
 
 ## License
 
