@@ -2,9 +2,9 @@
 
 Personal configuration files for setting up development environments quickly and consistently across systems.
 
----
-
 ## What's Included
+
+---
 
 ### Bash Aliases (`.bash_aliases`)
 
@@ -46,8 +46,6 @@ update
 - Debian 10+
 - Other Linux distributions with bash
 
----
-
 ## Adding New Configurations
 
 This repository will be expanded to include:
@@ -55,8 +53,6 @@ This repository will be expanded to include:
 - `.vimrc` - Vim editor configuration  
 - `.bashrc` - Custom bash configuration
 - Install scripts for automated setup
-
----
 
 ## License
 
