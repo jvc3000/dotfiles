@@ -4,6 +4,7 @@ alias ll='ls -la'
 alias update='sudo apt-get update && sudo apt-get upgrade'
 # Got to the top level of the git repo
 alias cdg='cd `git rev-parse --show-toplevel`'
+alias cd..="cd .."
 
 # ============= SERVER / PROJECT SPECIFIC =============
 # Dev environment location shortcuts
