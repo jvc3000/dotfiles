@@ -1,5 +1,5 @@
 alias ls='ls --color=auto -hl'
-alias ll='ls -la'
+alias ll='ls -laF'
 # Check for and install available updates
 alias update='sudo apt-get update && sudo apt-get upgrade'
 # Got to the top level of the git repo
